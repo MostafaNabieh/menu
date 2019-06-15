@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_settings"
+    android:orderInCategory="100"
+    android:title="Setting"
+    app:showAsAction="never"
+
+    />
+    <item
+        android:id="@+id/action"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="never">
+<menu>
+    <item
+        android:id="@+id/anything"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/music"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/play"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="never"/>
+
+</menu>
+    </item>
+
+    <item
+        android:id="@+id/a"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_announcement_black_24dp"
+
+        />
+
+
+
+</menu>
